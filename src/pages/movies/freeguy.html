@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/movie.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img class="logo" src="../../images/logo.png" alt="">
+        </nav>
+        
+        <div class="movie-details">
+            <div class="icon">
+                <img class="movie-icon" src="../../images/img1.jpg" alt="">
+            </div>
+            <h2>Freeguy Hindi + English Dual Audio</h3>
+            <h3>Screenshots</h5>
+
+             <img src="../../images/img1.jpg" class="movie-screen" alt=""><br>
+
+             <h3>Size : 200mb</h3>
+             <h3>Language : Hindi + English</h3>
+             <h3>Resolution : 720p</h3>
+        </div>
+
+        <section class="download">
+            <h1>Download LINK</h1>
+            <h2>Google Drive <br> Paste Link In Chrome</h2>
+            
+            <input type="text" value="GeeksForGeeks" id="GfGInput">
+  
+           
+            <button onclick="GeeksForGeeks()" class="btn">Copy text</button> 
+        </section>
+
+    </div>
+
+    <script>
+        function GeeksForGeeks() {
+/* Get the text field */
+var copyGfGText = document.getElementById("GfGInput");
+
+/* Select the text field */
+copyGfGText.select();
+
+/* Copy the text inside the text field */
+document.execCommand("copy");
+
+/* Alert the copied text */
+alert("Copied the Link: " + copyGfGText.value);
+}
+
+    </script>
+</body>
+</html>

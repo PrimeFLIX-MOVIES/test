@@ -1,0 +1,57 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: wheat;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(32, 28, 28);
+}
+
+.container{
+    width: 100vw;
+    height: 100%;
+}
+
+
+nav{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 150px;
+}
+
+.movie-icon{
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+}
+
+
+h3{
+    margin-top: 10px;
+}
+
+.movie-screen{
+    width: 320px;
+    height: 170px;
+    margin-top: 10px;
+}
+
+.download{
+    margin-top: 30px;
+}
+
+.btn{
+    color: black;
+    padding: 10px;
+}
+
+input{
+    color: black;
+}
